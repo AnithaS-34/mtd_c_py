@@ -1,0 +1,33 @@
+MTD COMPETITIVE TRAINING
+
+DAY1 THURSDAY 06-03-2025
+
+IMPORTANT GIT COMMANDS
+
+git status
+//to know the current status of our repo
+
+$ git clone <url>
+?? to download the Repo
+
+
+git clone https://github.com/neelmyna/vvce_mar25
+
+
+$ git pull origin main
+//command to download the updated Repo from the server to the local machine
+
+To make our computer recognize our git account we must  run these 2 configuration commands
+$ git config --global user.name "AnithaS-34"
+$ git config --global user.email "anithas0675@gmail.com"
+
+STEPS TO LOGIN TO GITHUB 
+rIGTH TOP CORNER CLICK ON YOUR PROFILE
+SCROLL DOWN AND CLICK SETTINGS
+NEXT WINDOW ,SCROLL DOWN,ON LEFT BOTTOM CORNER CLICK DEVELOPER SETTINGS
+NEXT WINDOW,ON TOP LEFT,CLICK PERSONAL ACCESS TOKENS,CLICK AGAIN ON TOKEN VCLASSIC
+NEXT WINDOW , CLICK ON GENERATE NEW TOKEN BUTTON AND SELECT TOKEN CLASSIC
+9nOW U MAY BE ASKED TO ENTER RHE PASSWORD)
+NEXT , ADD A NOTE FOR THE NEW PAT WE ARE CREATING 
+SELECT EXPIRY -> NO EXPIRATION
+SELECT THE TOP 
