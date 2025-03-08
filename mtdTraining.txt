@@ -40,3 +40,179 @@ $git push origin main ( local machine to remote)// (remote repo is updated)
 $ git pull (remote to local)
 
 $git origin main(
+
+
+
+
+
+
+
+
+by default all numbers are signedd
+int num;==> signed int num;
+type casting
+>c is type liberal language
+>implicit upcast -->int to float by compiler itself
+>11 to 11.0 (int to double)--> implicit upacst
+we get 3.666667
+implicit down casting
+
+>int num = (int) 11.5f / 2.0
+
+>11.5 to 11 (float to int) explicit down cast 
+11/2.0
+11 t0 11.0 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+DAY 2
+
+Arithmetic operators:+ - * / %
+all are  binary operators
+inputs are numbers
+output is also a numbers
+use with infix notation
+to perform any arithmetic operation ,data type of both the operands must be same.
+Left to Right associativity.-->Reading of values/Expression  are left to rigth.
+For the calculation to happen ,the user /programmer given infix expression must be converted to postfix.
+The operators have different hierarchy/precedence/priority
+
+fflush(stdin);
+------------------------------------------
+Relational operators: > < == != >= <=
+[10,20]--> close intervcal--> num>=10 and num<=20
+(10,20)--> open interval --> num > 10 and num < 20
+[10,20)-->right open interval
+---------------------------------------------
+Logical operators:
+ & && | || !
+ &--> check all the conditions
+ &&--> if second condition is false we can stop checking remaining conditions
+ inputs are bool
+ int n=10
+ 
+ 
+ #include<stdio.h>
+int main()
+{
+    int a=3,b=2,c=-8;
+    if(a<=b++ && ++b !=c)
+    puts("Tadiamdamol");
+     else
+     puts("Puspagiri");
+     printf("%d%d%d\n",a,b,c);
+     
+}
+-------------------------------------------------------
+5 steps to solve a problem:
+1.Understand the problem.Recognise the input data and the relevant information.Isolate the unwantecd data and info. Recognise the o/p.
+2.find the solution in all possible ways,(trial and error method),applying an algorith etc
+3.Write down the algorithm to solve the problem'.
+Each step must atomic (SRP),Simple and finite.
+4. Write the Fake code (pseudocode)
+5.Code it.
+
+Check if a nummber is perfect square.
+
+
+Round
+ceil
+floor
+ceil(7.0)==>8
+round(1.5)
+floor(6.3)==> 6
+
+camel case--> averageScore
+snake case-->average_score(we use in sql)
+pascal case-->AverageScore
+
+ANITHA==>uppercase
+Anitha==> capitalise
+----------------------------
+find the nth term:
+
+1 2 2 3 3 5 5 7 8  11 13 13 _______
+----------------------------
+#include<stdio.h>
+int main()
+{
+    int n1=89;
+    int n2=067;
+    int n3=0x99;
+    printf("%d %i %o %x\n",n1,n1,n1,n1);
+    printf("%d %i %o %x\n",n2,n2,n2,n2);
+    printf("%d %i %o %x\n",n3,n3,n3,n3);
+    return 0;
+}-----------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int num = 0;
+    puts("Enter a number to prints is Math table:");
+    scanf("%d",&num);
+    for(int i = 1 ; i <= 10 ; i++)
+    {
+        printf("%d * %d = %d\n",num,i,num*i);
+    }
+    return 0;
+}--------------------------------------------------
+
+#include<stdio.h>
+int main()
+{
+    int num = 0;
+    puts("Enter a number to prints is Math table:");
+    scanf("%d",&num);
+    for(int i = 1 ; i <= 10 ; i++)
+    {
+        printf("%d * %02d  = %03d\n",num,i,num*i);
+    }
+    return 0;
+}
+------------------------------------------------------
+Find the second smallest digit in a giiven number:
+674783
+35
+8
+loop inside a loop
+for 8 digit number 8 iterations
+----------
+ 
+cd..
+git add .
+git commit -m "se----"
+git push origin main
+while loop is a Entry Controlled  Loop
+
+until N has digits
+set rem digit 
+add it to 
+github link(https://github.com/AnithaS-34/mtd_c_py)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Day 3
+
+do while loop ==> almost used in all menu based applications.
+
+POINTER
+& operator:
+"Address of" operator It an be applied only to variable,invluding a pointer,because a pointer is also a variable.
+
+when we apply 7 to a variable we get its address 
+*opeartor
+"Value at" or "dereferncing",opeartor It can be applied only to an address
+
+
+
+     -----------
+       
+X	   value
+
+     ----------
+X*  address          int* 1101
+
+int *var = &num
+int* = int*
+
+int* var == int *var
+
